@@ -1,0 +1,40 @@
+* {
+    box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text--underline::after {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    bottom: -30%;
+    left: 5%;
+    background: #ccc;
+}
+
+.text--underline2::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    background: #ccc;
+}
