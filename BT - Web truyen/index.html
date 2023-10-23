@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Truyen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/assets/base.css">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="header__box1">
+            <div class="header__box1-banner">
+                <img src="https://st.nettruyenus.com/data/logos/logo-nettruyen.png" alt="" class="header__box1-banner__img">
+            </div>
+            <div class="header__box1-search">
+                <form action="" class="header__box1-search__form">
+                    <input class="header__box1-search__input" placeholder="Tìm truyện..."></input>
+                    <button class="header__box1-search__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__box1-search__svg bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="header__box1-nav">
+                <div class="header__box1-nav-mode">
+                    <button class="header__box1-nav-mode__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__box1-nav-mode__svg bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H4.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="header__box1-nav-chat">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__box1-nav-chat__svg bi bi-chat-fill" viewBox="0 0 16 16">
+                        <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="header__box1-user">
+                <a href="" class="header__box1-user__signin">Đăng nhập</a>
+                <p>/</p>
+                <a href="" class="header__box1-user__signup">Đăng ký</a>
+            </div>
+        </div>
+        <div class="header__box2">
+            <ul class="header__box2-list">
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                    </svg></a>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">hot</a>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">theo dõi</a>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link"> lịch sử</a>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">thể loại</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">xếp hạng</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/>
+                    </svg>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">tìm truyện</a>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">con gái</a>
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link">con trai</a>                    
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="" class="header__box2-list-item__link" target="_blank">group</a>                    
+                </li>
+                <li class="header__box2-list-item">
+                    <a href="https://www.facebook.com/" class="header__box2-list-item__link" target="_blank">fanpage</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__notify">
+            <div class="header__notify-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__notify-icon__svg bi bi-info-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                </svg>
+            </div>
+            <div class="header__notify-content">
+                <p class="header__notify-content__text">
+                    Nếu web/ảnh load chậm, <a href="" class="header__notify-content__link">TẢI NGAY ứng dụng VPN (1.1.1.1) tại đây</a> để cải thiện tốc độ
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="content__recommendation">
+            <h2 class="content__recommnendation__heading">
+                <a href="">
+                    truyện đề cử 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommnendation__heading__svg bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+            </h2>
+            <ul class="content__recommendation-list">
+                <li class="content__recommendation-list-item">
+                    <a href="" class="content__recommendation-list-item__link">
+                        <div class="content__recommendation-list-item__img"></div>
+                    </a>
+                    <div class="content__recommendation-list-item-name">
+                        <h4 class="content__recommendation-list-item-name__heading">
+                            <a href="">
+                                Võ Luyện Đỉnh Phong        
+                            </a>
+                        </h4>
+                        <div class="content__recommendation-list-item-name__text">
+                            <a href="" class="content__recommendation-list-item-name__chapter">
+                                Chapter 3589
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommendation-list-item__svg bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>                        
+                            <span class="content__recommendation-list-item__time">20 giờ trước</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="content__recommendation-list-item">
+                    <a href="" class="content__recommendation-list-item__link">
+                        <div class="content__recommendation-list-item__img"></div>
+                    </a>
+                    <div class="content__recommendation-list-item-name">
+                        <h4 class="content__recommendation-list-item-name__heading">
+                            <a href="">
+                                Võ Luyện Đỉnh Phong        
+                            </a>
+                        </h4>
+                        <div class="content__recommendation-list-item-name__text">
+                            <a href="" class="content__recommendation-list-item-name__chapter">
+                                Chapter 3589
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommendation-list-item__svg bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>                        
+                            <span class="content__recommendation-list-item__time">20 giờ trước</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="content__recommendation-list-item">
+                    <a href="" class="content__recommendation-list-item__link">
+                        <div class="content__recommendation-list-item__img"></div>
+                    </a>
+                    <div class="content__recommendation-list-item-name">
+                        <h4 class="content__recommendation-list-item-name__heading">
+                            <a href="">
+                                Võ Luyện Đỉnh Phong        
+                            </a>
+                        </h4>
+                        <div class="content__recommendation-list-item-name__text">
+                            <a href="" class="content__recommendation-list-item-name__chapter">
+                                Chapter 3589
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommendation-list-item__svg bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>                        
+                            <span class="content__recommendation-list-item__time">20 giờ trước</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="content__recommendation-list-item">
+                    <a href="" class="content__recommendation-list-item__link">
+                        <div class="content__recommendation-list-item__img"></div>
+                    </a>
+                    <div class="content__recommendation-list-item-name">
+                        <h4 class="content__recommendation-list-item-name__heading">
+                            <a href="">
+                                Võ Luyện Đỉnh Phong        
+                            </a>
+                        </h4>
+                        <div class="content__recommendation-list-item-name__text">
+                            <a href="" class="content__recommendation-list-item-name__chapter">
+                                Chapter 3589
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommendation-list-item__svg bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>                        
+                            <span class="content__recommendation-list-item__time">20 giờ trước</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="content__recommendation-list-item">
+                    <a href="" class="content__recommendation-list-item__link">
+                        <div class="content__recommendation-list-item__img"></div>
+                    </a>
+                    <div class="content__recommendation-list-item-name">
+                        <h4 class="content__recommendation-list-item-name__heading">
+                            <a href="">
+                                Võ Luyện Đỉnh Phong        
+                            </a>
+                        </h4>
+                        <div class="content__recommendation-list-item-name__text">
+                            <a href="" class="content__recommendation-list-item-name__chapter">
+                                Chapter 3589
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommendation-list-item__svg bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>                        
+                            <span class="content__recommendation-list-item__time">20 giờ trước</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <h2 class="content__comic__heading">
+            <a href="">
+                truyện mới cập nhật
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__recommnendation__heading__svg bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+        </h2>
+        <div class="content__comic">
+            <div class="content__comic-wrap">
+                <a href="" class="content__comic-wrap__link">
+                    <div class="content__comic-wrap__img"></div>
+                </a>
+                <div class="content__comic-wrap__react">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">90m</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-chat-fill" viewBox="0 0 16 16">
+                        <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">40k</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">47k</span>
+                </div>
+                <div class="content__comic-wrap-info">
+                    <h4 class="content__comic-wrap-info__name">
+                        <a href="">
+                            Võ Luyện Đỉnh Phong
+                        </a>
+                    </h4>
+                        <ul class="content__comic-wrap-info-list">
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3589</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 phút trước</span>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3587</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 tuần trước</>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3586</a>
+                                <span class="content__comic-wrap-info-list-item__time">2 tuần trước</>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="content__comic-wrap">
+                <a href="" class="content__comic-wrap__link">
+                    <div class="content__comic-wrap__img"></div>
+                </a>
+                <div class="content__comic-wrap__react">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">90m</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-chat-fill" viewBox="0 0 16 16">
+                        <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">40k</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">47k</span>
+                </div>
+                <div class="content__comic-wrap-info">
+                    <h4 class="content__comic-wrap-info__name">
+                        <a href="">
+                            Võ Luyện Đỉnh Phong
+                        </a>
+                    </h4>
+                        <ul class="content__comic-wrap-info-list">
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3589</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 phút trước</span>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3587</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 tuần trước</>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3586</a>
+                                <span class="content__comic-wrap-info-list-item__time">2 tuần trước</>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="content__comic-wrap">
+                <a href="" class="content__comic-wrap__link">
+                    <div class="content__comic-wrap__img"></div>
+                </a>
+                <div class="content__comic-wrap__react">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">90m</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-chat-fill" viewBox="0 0 16 16">
+                        <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">40k</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">47k</span>
+                </div>
+                <div class="content__comic-wrap-info">
+                    <h4 class="content__comic-wrap-info__name">
+                        <a href="">
+                            Võ Luyện Đỉnh Phong
+                        </a>
+                    </h4>
+                        <ul class="content__comic-wrap-info-list">
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3589</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 phút trước</span>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3587</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 tuần trước</>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3586</a>
+                                <span class="content__comic-wrap-info-list-item__time">2 tuần trước</>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="content__comic-wrap">
+                <a href="" class="content__comic-wrap__link">
+                    <div class="content__comic-wrap__img"></div>
+                </a>
+                <div class="content__comic-wrap__react">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">90m</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-chat-fill" viewBox="0 0 16 16">
+                        <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">40k</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">47k</span>
+                </div>
+                <div class="content__comic-wrap-info">
+                    <h4 class="content__comic-wrap-info__name">
+                        <a href="">
+                            Võ Luyện Đỉnh Phong
+                        </a>
+                    </h4>
+                        <ul class="content__comic-wrap-info-list">
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3589</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 phút trước</span>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3587</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 tuần trước</>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3586</a>
+                                <span class="content__comic-wrap-info-list-item__time">2 tuần trước</>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="content__comic-wrap">
+                <a href="" class="content__comic-wrap__link">
+                    <div class="content__comic-wrap__img"></div>
+                </a>
+                <div class="content__comic-wrap__react">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">90m</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-chat-fill" viewBox="0 0 16 16">
+                        <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">40k</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="content__comic-wrap__react__svg bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                    <span class="content__comic-wrap__react__text">47k</span>
+                </div>
+                <div class="content__comic-wrap-info">
+                    <h4 class="content__comic-wrap-info__name">
+                        <a href="">
+                            Võ Luyện Đỉnh Phong
+                        </a>
+                    </h4>
+                        <ul class="content__comic-wrap-info-list">
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3589</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 phút trước</span>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3587</a>
+                                <span class="content__comic-wrap-info-list-item__time">1 tuần trước</>
+                            </li>
+                            <li class="content__comic-wrap-info-list-item">
+                                <a href="" class="content__comic-wrap-info-list-item__chapter">Chapter 3586</a>
+                                <span class="content__comic-wrap-info-list-item__time">2 tuần trước</>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
